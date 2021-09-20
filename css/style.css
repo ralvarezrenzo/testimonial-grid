@@ -58,6 +58,12 @@ img{
 }
 .testimonial__cards:nth-child(1){
     background: var(--moderate-violet);
+    position: relative;
+}
+.quote{
+    position: absolute;
+    top: 0;
+    right: 10%;
 }
 .testimonial__cards:nth-child(2){
     background: var(--very-dark-grayish-blue);
@@ -104,6 +110,7 @@ img{
 }
 .comentario__negrita{
     font-size: 1.5em;
+    z-index: 1;
 }
 .comentario__gray{
     line-height: 1.5em;
